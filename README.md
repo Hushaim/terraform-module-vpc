@@ -3,7 +3,7 @@
 
 ```hcl
 module "ec2" {
-    source = ""
+    source = "Hushaim/vpc/module"
     version = ""
     region  = "us-east-2"
     cidr_vpc  = "10.0.0.0/16"
