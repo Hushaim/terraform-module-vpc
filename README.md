@@ -1,7 +1,7 @@
 # terraform-module-vpc
 ## usage
 
-'''hcl
+```hcl
 module "ec2" {
     source = ""
     version = ""
@@ -16,4 +16,4 @@ module "ec2" {
     instance_type = "t2.micro"
     key_pair      = "my-key"
 }
-'''
+```
